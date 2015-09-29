@@ -3,7 +3,7 @@
 #
 
 # Pull base image.
-FROM ubuntu:12.04
+FROM ubuntu:14.04
 
 # Install Nginx.
 RUN \
@@ -22,6 +22,6 @@ WORKDIR /etc/nginx
 # Define default command.
 CMD ["nginx"]
 
-# Expose ports.
+# Expose ports
 EXPOSE 80
 EXPOSE 443
