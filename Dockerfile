@@ -1,15 +1,12 @@
 #
-# Nginx Dockerfile
-#
-# https://github.com/dockerfile/nginx
+# Nginx
 #
 
 # Pull base image.
-FROM dockerfile/ubuntu
+FROM ubuntu:12.04
 
 # Install Nginx.
 RUN \
-  add-apt-repository -y ppa:nginx/stable && \
   apt-get update && \
   apt-get install -y nginx && \
   rm -rf /var/lib/apt/lists/* && \
