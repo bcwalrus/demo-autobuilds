@@ -3,7 +3,7 @@
 #
 
 # Pull base image.
-FROM ubuntu:12.04
+FROM ubuntu:14.04
 
 # Install Nginx.
 RUN \
