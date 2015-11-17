@@ -3,7 +3,7 @@
 #
 
 # Pull base image.
-FROM ubuntu:14.04
+FROM bcwalrus/ubuntu:12.04
 
 # Install Nginx.
 RUN \
