@@ -3,7 +3,7 @@
 #
 
 # Pull base image.
-FROM bcwalrus/ubuntu:12.04
+FROM registry-1-stage.docker.io/bcwalrus/ubuntu:latest
 
 # Install Nginx.
 RUN \
